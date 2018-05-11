@@ -1,5 +1,9 @@
 # dotfiles
 
+Clone this repository:
+
+`git clone https://github.com/JeffIrwin/dotfiles.git`
+
 ## Windows
 
 Place \_vimrc and supertab.vmb in c:\program files (x86)\vim\ (or
@@ -9,6 +13,6 @@ Edit supertab.vmb with vim and source it (:so %).
 
 ## Linux
 
-Use .vimrc instead of \_vimrc and place it in ~.
+Run deploy.sh.
 
-Put supertab in ~/.vim/ and source it as above.
+Edit ~/.vim/supertab.vmb and source it as above.
