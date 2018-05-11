@@ -10,4 +10,5 @@ cp .bashrc ~
 cp .inputrc ~
 cp .vimrc ~
 
+mkdir ~/.vim
 cp supertab.vmb ~/.vim
