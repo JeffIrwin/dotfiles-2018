@@ -11,6 +11,8 @@ wherever you installed vim).
 
 Edit supertab.vmb with vim and source it (:so %).
 
+Note:  if launching vim from git bash, you must also have sourced supertab.vmb in ~/.vim/.
+
 ## Linux
 
 Run deploy.sh.
