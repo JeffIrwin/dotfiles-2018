@@ -49,3 +49,11 @@ set textwidth=72
 
 " Prevent linebreaks while typing
 set formatoptions+=1
+
+" Display tabs with a ">" at the beginning and "-"'s for the rest of the
+" tabwidth.
+set list
+set listchars=tab:>-
+
+" Don't create *~ files
+set nobackup
