@@ -43,9 +43,9 @@ set viminfo='20,<5000,s10,h
 set nolinebreak
 set nolist " list disables linebreak
 set wrapmargin=0
-set expandtab
-set tabstop=2
-set textwidth=72
+"set expandtab
+set tabstop=4
+set textwidth=80
 
 " Prevent linebreaks while typing
 set formatoptions+=1
@@ -57,3 +57,8 @@ set listchars=tab:>-
 
 " Don't create *~ files
 set nobackup
+set nowritebackup
+
+"autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 textwidth=80
+autocmd FileType f   setlocal shiftwidth=2 tabstop=2 softtabstop=2 textwidth=72
+autocmd FileType f90 setlocal shiftwidth=4 tabstop=4 textwidth=80
