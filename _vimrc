@@ -59,6 +59,14 @@ set listchars=tab:>-
 set nobackup
 set nowritebackup
 
+"" It seems to be better to place these filetype configurations in C:\Program Files (x86)\Vim\vim[0-9]*\ftplugin
+
 "autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 textwidth=80
-autocmd FileType f   setlocal shiftwidth=2 tabstop=2 softtabstop=2 textwidth=72
-autocmd FileType f90 setlocal shiftwidth=4 tabstop=4 textwidth=80
+"autocmd FileType f   setlocal shiftwidth=2 tabstop=2 softtabstop=2 textwidth=72
+"autocmd FileType f90 setlocal shiftwidth=4 tabstop=4 textwidth=80
+
+" Associate *.inc files with Fortran syntax
+augroup fortran_inc_ft
+  au!
+  autocmd BufNewFile,BufRead *.inc set syntax=fortran
+augroup END
