@@ -13,6 +13,8 @@ Edit supertab.vmb with vim and source it (:so %).
 
 Note:  if launching vim from git bash, you must also have sourced supertab.vmb in ~/.vim/.
 
+Wherever you choose to place it, run `git config --global core.excludesfile /path/to/.gitignore`
+
 ## Linux
 
 Run deploy.sh.
