@@ -1,5 +1,5 @@
 
-/* Copy this inside the asm{} block at the top of /Kerne/SerialDev/Keyboard.HC.Z and comment-out the QWERTY version of each table.  Then run the "BootHDIns;" command to recompile the kernel (TLDR for compiling is that basically you just type C, press p to probe and press 1 as a disk).  Finally "Reboot;" for changes to take effect. */
+/* Copy this inside the asm{} block at the top of /Kernel/SerialDev/Keyboard.HC.Z and comment-out the QWERTY version of each table.  Then run the "BootHDIns;" command to recompile the kernel (TLDR for compiling is that basically you just type C, press p to probe and press 1 as a disk).  Finally "Reboot;" for changes to take effect. */
 
 NORMAL_KEY_SCAN_DECODE_TABLE::
 	DU8	0,CH_ESC,"1234567890[]",CH_BACKSPACE,'\t';
