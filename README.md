@@ -1,4 +1,7 @@
-# dotfiles
+
+❌ These are old dotfiles that I used until about 2022.  See my newer repo [dotfiles](https://github.com/JeffIrwin/dotfiles) instead. 
+
+# dotfiles-2018
 
 Clone this repository:
 
